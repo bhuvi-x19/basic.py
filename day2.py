@@ -162,13 +162,107 @@
 #     print(i,"*5 =",sum)
 #     i += 1
 
-availble_seats=int(input("Enter the number of available seats: "))
-while availble_seats > 0:
-    print("There are", availble_seats, "seats available.")
-    seats_to_book = int(input("Enter the number of seats to book: "))
-    passanger_name = input("Enter the passenger name: ")  
-    if seats_to_book <= availble_seats:
-        availble_seats -= seats_to_book
-        print("You have successfully booked", seats_to_book, "seats.")
-    else:
-        print("Sorry, there are only", availble_seats, "seats available. Please try again.")
+# availble_seats=int(input("Enter the number of available seats: "))
+# while availble_seats > 0:
+#     print("There are", availble_seats, "seats available.")
+#     seats_to_book = int(input("Enter the number of seats to book: "))
+#     passanger_name = input("Enter the passenger name: ")  
+#     if seats_to_book <= availble_seats:
+#         availble_seats -= seats_to_book
+#         print("You have successfully booked", seats_to_book, "seats.")
+#     else:
+#         print("Sorry, there are only", availble_seats, "seats available. Please try again.")
+
+#fibonacci series
+# n = int(input("Enter the number of terms: "))
+
+# a = 1
+# b = 1
+
+# for i in range(n):
+#     print(a)
+#     c = a + b
+#     a = b
+#     b = c
+
+# LIST
+# a=[1,2,3,4,5]
+# b=["apple","banana","orange"]
+# e=[1,7,3,9,5]
+# #list indexing
+# print(a[1])
+# print(b[0])
+# #list slicing
+# print(a[1:4])
+# #list concatenation
+# c=a+b
+# print(c)
+# #repeating list
+# d=a*3
+# print(d)
+# #list length
+# print(len(a))
+# #list membership
+# print(3 in a)
+# print("grape" in b)
+# #list methods
+# a.reverse()
+# print(a)
+# b=a.copy()
+# print(b)
+# a.append(6)
+# print(a)
+# a.insert(0,0)
+# print(a)
+# a.remove(3)
+# print(a)
+# a.extend(e)
+# print(a)
+# a.pop(1)
+# print(a)
+# a.clear()
+# print(a)
+# e.index(5)
+# print(a)
+# a.sort()
+# print(a)
+# print(e.index(3))
+# print(e.count(3))
+# #list comprehension
+# print(a==e)
+# print(a>e)
+# squares=[x**2 for x in a]
+# print(squares)
+# lambda_square = lambda x: x**2
+# print(lambda_square(5))
+
+#lambda function
+#map
+# def fun (x):
+#     return x*2
+# num=[1,2,3,4,5,6,7,8,9,10]
+# result=list(map(fun,num))
+# print(result)
+# e=list(map(lambda x: x**2,num))
+# print(e)
+
+# #filter
+# f=list(filter(lambda x: x%2==0,num))
+# print(f)
+# def fun(x):
+#     return x%2==0
+# f=list(filter(fun,num))
+# print(f)
+
+# #reduce
+# from functools import reduce
+# num=[1,2,3,4,5,6,7,8,9,10]
+# sum=reduce(lambda x,y: x+y,num)
+# print(sum)
+# e=list(filter(lambda x: x%2==0,num))
+# print("e =",e)
+# sum=reduce(lambda x,y: x+y,e)
+# print(sum)
+# o=list(filter(lambda x: x%2==1,num))
+# print("o =",o)
+
