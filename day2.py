@@ -173,7 +173,7 @@
 #     else:
 #         print("Sorry, there are only", availble_seats, "seats available. Please try again.")
 
-#fibonacci series
+# fibonacci series
 # n = int(input("Enter the number of terms: "))
 
 # a = 1
@@ -185,7 +185,7 @@
 #     a = b
 #     b = c
 
-# LIST
+# # LIST
 # a=[1,2,3,4,5]
 # b=["apple","banana","orange"]
 # e=[1,7,3,9,5]
@@ -236,13 +236,13 @@
 # lambda_square = lambda x: x**2
 # print(lambda_square(5))
 
-#lambda function
-#map
+# lambda function
+# map
 # def fun (x):
 #     return x*2
 # num=[1,2,3,4,5,6,7,8,9,10]
 # result=list(map(fun,num))
-# print(result)
+# print(resul+t)
 # e=list(map(lambda x: x**2,num))
 # print(e)
 
